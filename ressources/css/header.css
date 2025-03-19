@@ -1,0 +1,26 @@
+header{
+    display: flex; 
+    justify-content: space-between;  
+    gap: 24px;
+    background: rgb(219, 120, 136); 
+    color: aliceblue;   
+    width: 100%;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+header h1{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    margin: 10px;
+}
+header nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header nav li{
+    list-style: none;
+    margin: 10px;
+}

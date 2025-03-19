@@ -1,0 +1,46 @@
+.login{
+    display: flex;
+    background-color: bisque;
+}
+.login h1{
+    font-family: "Sacramento", cursive;
+}
+.login-senha{
+    margin: 100px;
+    padding: 10px;
+    font-size: 1.5rem; 
+}
+.login-senha form{
+    margin: 10px;
+    padding: 10px;
+}
+.login-senha input{  
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(219, 120, 136);
+    border-radius: 12px;     
+}
+
+.login-senha label{    
+    padding: 5px;
+}
+.enviar{
+    color: aliceblue;
+    background: rgb(219, 120, 136);
+    border: none;
+    width: 200px;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 5px;
+}
+fieldset{
+    color: rgb(219, 120, 136);
+    border-radius: 15px;    
+}
+.imagemlogin-senha img{    
+    width: 30%;
+    height: 90%;   
+    border-radius: 40% 30% 0% 20%;
+    margin: 10px;
+    padding: 10px; 
+}
