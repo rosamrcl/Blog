@@ -2,7 +2,7 @@ header{
     display: flex; 
     justify-content: space-between;  
     gap: 24px;
-    background: rgba(0, 0, 0, 0.500); 
+    background: rgba(0, 0, 0, 0.500);
     color: aliceblue;   
     width: 100%;
 }
