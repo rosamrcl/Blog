@@ -6,6 +6,9 @@ header{
     color: aliceblue;   
     width: 100%;
 }
+header img{
+    width: 80px;
+}
 header nav{
     display: flex;
     flex-direction: row;
