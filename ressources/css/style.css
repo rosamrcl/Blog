@@ -14,12 +14,12 @@
     padding: 0 8px;
 }
 body{
-    background-color: bisque;
+    background-color: rgba(0, 0, 0, 0.767);
     opacity: 0.9;
 }
 footer{
     
-    background: rgb(219, 120, 136);
+    background: rgba(0, 0, 0, 0.500););
     display: flex;
     align-items: center;
     justify-content: center;    
