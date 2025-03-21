@@ -98,9 +98,12 @@
                         <div class="comentario-minicard">
 
                             <?php
-                                $user=$_POST['user'];
-                                $titulo=$_POST['titulo'];
-                                $msg=$_POST['msg'];
+                                if ($_SERVER['REQUEST_METHOD']=='POST'){
+
+                                    $user=$_POST['user'];
+                                    $titulo=$_POST['titulo'];
+                                    $msg=$_POST['msg'];
+                                }
                             ?>
                             <div class="card-detalhe">
                                 <h3 class="card-titulo"><?=$titulo?></h3> </div>
