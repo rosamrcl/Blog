@@ -18,6 +18,13 @@
                 <li><a href="../ressources/views/sobre.html">Sobre</a></li>            
         </nav>
     </header>
+    <?php
+        if ($_SERVER['REQUEST_METHOD']=='POST'){
+        $user=$_POST['user'];
+        $titulo=$_POST['titulo'];
+        $msg=$_POST['msg'];
+                            }
+        ?>
     <main>
         <section class="publi">
             <aside>
@@ -97,14 +104,6 @@
                     <div class="comentario-card">
                         <div class="comentario-minicard">
 
-                            <?php
-                                if ($_SERVER['REQUEST_METHOD']=='POST'){
-
-                                    $user=$_POST['user'];
-                                    $titulo=$_POST['titulo'];
-                                    $msg=$_POST['msg'];
-                                }
-                            ?>
                             <div class="card-detalhe">
                                 <h3 class="card-titulo"><?=$titulo?></h3> </div>
                                         <p class="comentario-descricao">
