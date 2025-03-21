@@ -25,10 +25,10 @@
                 <h2><span>Rosa Chagas</span></h2>
                 <p>Com 39 anos e formada em Direito, sempre teve interesse pela área de tecnologia desde a adolescência. Após anos dedicados aos estudos para concursos públicos, decidiu retomar sua paixão por esse universo. Atualmente, vem adquirindo novos conhecimentos no curso de Técnico em Informática do SENAI, onde também teve a oportunidade de fazer novas amizades e expandir sua rede de contatos.</p>
                 <h2><span>Redes Sociais</span></h2>
-                <a href="https://www.instagram.com/rosachagasmrcl/"><i class="fa-brands fa-instagram" style="color: #e2e6ee;"></i></a>
-                <a href="https://bsky.app/profile/rosamrcl.bsky.social"><i class="fa-brands fa-bluesky" style="color: #e2e6ee;"></i></a>
-                <a href="https://github.com/RosaCL"><i class="fa-brands fa-github"style="color: #e2e6ee;"></i></a>
-                <a href="https://www.linkedin.com/in/maria-rosa-chagas-lima-16730a293/"><i class="fa-brands fa-linkedin" style="color: #e2e6ee;"></i></a>
+                <a target="_blank" href="https://www.instagram.com/rosachagasmrcl/"><i class="fa-brands fa-instagram" style="color: #e2e6ee;"></i></a>
+                <a target="_blank" href="https://bsky.app/profile/rosamrcl.bsky.social"><i class="fa-brands fa-bluesky" style="color: #e2e6ee;"></i></a>
+                <a target="_blank" href="https://github.com/RosaCL"><i class="fa-brands fa-github"style="color: #e2e6ee;"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/maria-rosa-chagas-lima-16730a293/"><i class="fa-brands fa-linkedin" style="color: #e2e6ee;"></i></a>
                 <a href="https://open.spotify.com/user/mariarosacl2008"><i class="fa-brands fa-spotify" style="color: #e2e6ee;"></i></a>
 
                                 
@@ -121,7 +121,7 @@
 
     </main>
     <footer>
-        <a href="https://github.com/RosaCL"><img src="../../public/img/costureza.png" alt=""></a>
+        <a target="_blank" href="https://github.com/RosaCL"><img src="../../public/img/costureza.png" alt=""></a>
     </footer>
     
 </body>
