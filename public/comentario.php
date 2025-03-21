@@ -13,7 +13,7 @@
     <header>
         <h1>Blog</h1>               
         <nav>            
-                <li><a href="../ressources/views/home.html">Home</a></li>
+                <li><a href="../public/comentario.php">Home</a></li>
                 <li><a href="../ressources/views/index.html">Login</a></li>
                 <li><a href="../ressources/views/sobre.html">Sobre</a></li>            
         </nav>
@@ -61,7 +61,7 @@
             <aside>
                 <h2><span>Deixe seu comentário</span></h2>
                 <h2>sobre o que você quer ver aqui</h2>                
-                <form action="../../public/comentario.php" method="post">
+                <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
 
                     <input type="text" placeholder="User" name="user" id="user"><br>
                     <input type="text" placeholder="Titulo" name="titulo" id="titulo"><br>
@@ -92,36 +92,30 @@
                                 <span class="nome-autor">Luan</span>
                             </div>                            
                         </div>                     
-                       
                     
                     </div>   
                     <div class="comentario-card">
                         <div class="comentario-minicard">
 
                             <?php
-                                if($_SERVER['REQUEST_METHOD']=="POST"){
-                                    $user=$_POST['user'];
-                                    $titulo=$_POST['titulo'];
-                                    $msg=$_POST['msg'];
-                                }                               
-                                
-                                echo "<div class='card-detalhe'>
-                                <h3 class='card-titulo'>$titulo</h3> </div>
-                                        <p class='comentario-descricao'>
-                                        $msg
+                                $user=$_POST['user'];
+                                $titulo=$_POST['titulo'];
+                                $msg=$_POST['msg'];
+                            ?>
+                            <div class="card-detalhe">
+                                <h3 class="card-titulo"><?=$titulo?></h3> </div>
+                                        <p class="comentario-descricao">
+                                        <?=$msg?>
                                         </p><br>
-                                        <div class='comentario-autor'>                         
-                                        <span class='nome-autor'>$user</span>
-                                </div>"
-                                ?>
+                                        <div class="comentario-autor">                         
+                                        <span class="nome-autor"><?=$user?></span>
+                                </div>
                         </div>
                     </div>             
                     
                 </section>
-            </aside>   
-
+            </aside>
         </section>
-      
             
 
 
