@@ -13,15 +13,15 @@
     <header>
         <h1>Blog</h1>               
         <nav>            
-                <li><a href="../views/home.html">Home</a></li>
-                <li><a href="../views/index.html">Login</a></li>
-                <li><a href="../views/sobre.html">Sobre</a></li>            
+                <li><a href="../ressources/views/home.html">Home</a></li>
+                <li><a href="../ressources/views/index.html">Login</a></li>
+                <li><a href="../ressources/views/sobre.html">Sobre</a></li>            
         </nav>
     </header>
     <main>
         <section class="publi">
             <aside>
-                <img src="../../public/img/perfil.png" alt="">
+                <img src="../public/img/perfil.png" alt="">
                 <h2><span>Rosa Chagas</span></h2>
                 <p>Com 39 anos e formada em Direito, sempre teve interesse pela área de tecnologia desde a adolescência. Após anos dedicados aos estudos para concursos públicos, decidiu retomar sua paixão por esse universo. Atualmente, vem adquirindo novos conhecimentos no curso de Técnico em Informática do SENAI, onde também teve a oportunidade de fazer novas amizades e expandir sua rede de contatos.</p>
                 <h2><span>Redes Sociais</span></h2>
