@@ -23,11 +23,27 @@ main{
     line-height: 20px;
     max-width: 500px;
 }
+
+.publia{
+    background: rgba(81, 81, 167, 0.226);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 18px;
+}
 .conta{
     line-height: 40px;
-    max-width: 100%; 
+    max-width: 100%;     
 }
-
+.conta h1{
+    font-family: "Barriecito", system-ui;
+    padding: 10px;
+}
+.conta p{
+    font-family: "Roboto", sans-serif;
+}
+.conta h2 {
+    font-family: "Barriecito", system-ui;
+}
 
 .btn-inscricao{
     border: 2px solid #9E3636;
@@ -100,6 +116,10 @@ span{
 .publi{
     margin: 30px;
 }
+.publi-coment{
+    width: 80%;
+    margin: 15px;
+}
 .comentarios{
     display: flex;
     flex-direction: column;
@@ -121,7 +141,7 @@ span{
     font-weight: 400;
 }
 .comentario-card{
-    padding: 0 10rem;
+    padding: 0 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -138,45 +158,36 @@ span{
     flex-basis: 29rem;
     margin-top: 2rem;   
 }
-.cabe{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
-}
+
 .card-detalhe{
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 1rem;
     color: white;
 }
 .card-titulo{
     font-size: 1.5rem;
     font-weight: 700;
-    color: white;
+    color: #D94A4A;
 }
-.card-avalia{
-    font-size: 1rem;
-    font-weight: 500;
-}
+
 .comentario-descricao{
-    font-size: 1rem;
+    
+    font-size: 2rem;
     font-weight: 400;
     color: white;
 }
 .comentario-autor{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;   
     gap: 0.5rem;
 }
-.comentario-autor img{
-    width: 2rem;
-    border-radius: 100%;
-}
+
 .nome-autor{
-    color: white;
-    font-size: 2rem;
+    color: #D94A4A;
+    font-size: 0.8rem;
     font-weight: 400;
+
 }
 

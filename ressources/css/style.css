@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Molengo&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Barriecito&family=Molengo&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
 
 *{
     margin: 0;
@@ -14,7 +14,7 @@
     padding: 0 8px;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.700);
+    background-color: rgba(43, 3, 3, 0.829);
     opacity: 0.9;
 }
 footer{

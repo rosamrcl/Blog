@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Costureza TI</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../ressources/css/style.css">
+    <link rel="stylesheet" href="../ressources/css/header.css">
+    <link rel="stylesheet" href="../ressources/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -77,7 +77,8 @@
                         <p class="comentario-subtitle">Dê uma olhada...</p>
                     </h6>
                     <div class="comentario-card">
-                        <div class="comentario-minicard">                            
+                        <div class="comentario-minicard">
+                            
                             <div class="card-detalhe">
                                 <span>em alta <i class="fa-solid fa-fire fa-sm" style="color: #e9591c;"></i></span>
                                 <h3 class="card-titulo">Muito legal</h3>
@@ -89,12 +90,32 @@
                             </p>
                             <div class="comentario-autor">                              
                                 <span class="nome-autor">Luan</span>
-                            </div>
-                            
-                        </div>                       
-                        
-                            
-                    </div>                
+                            </div>                            
+                        </div>                     
+                       
+                    
+                    </div>   
+                    <div class="comentario-card">
+                        <div class="comentario-minicard">
+
+                            <?php
+                                if($_SERVER['REQUEST_METHOD']=="POST"){
+                                    $user=$_POST['user'];
+                                    $titulo=$_POST['titulo'];
+                                    $msg=$_POST['msg'];
+                                }                               
+                                
+                                echo "<div class='card-detalhe'>
+                                <h3 class='card-titulo'>$titulo</h3> </div>
+                                        <p class='comentario-descricao'>
+                                        $msg
+                                        </p><br>
+                                        <div class='comentario-autor'>                         
+                                        <span class='nome-autor'>$user</span>
+                                </div>"
+                                ?>
+                        </div>
+                    </div>             
                     
                 </section>
             </aside>   
