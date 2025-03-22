@@ -18,19 +18,17 @@
                 <li><a href="../ressources/views/sobre.html">Sobre</a></li>            
         </nav>
     </header>
-    <?php
-        if ($_SERVER['REQUEST_METHOD']=='POST'){
+    <?php       
         $user=$_POST['user'];
         $titulo=$_POST['titulo'];
-        $msg=$_POST['msg'];
-                            }
-        ?>
+        $msg=$_POST['msg'];                            
+    ?>
     <main>
         <section class="publi">
             <aside>
                 <img src="../public/img/perfil.png" alt="">
                 <h2><span>Rosa Chagas</span></h2>
-                <p>Com 39 anos e formada em Direito, sempre teve interesse pela área de tecnologia desde a adolescência. Após anos dedicados aos estudos para concursos públicos, decidiu retomar sua paixão por esse universo. Atualmente, vem adquirindo novos conhecimentos no curso de Técnico em Informática do SENAI, onde também teve a oportunidade de fazer novas amizades e expandir sua rede de contatos.</p>
+                <p>Com 38 anos e formada em Direito, sempre teve interesse pela área de tecnologia desde a adolescência. Após anos dedicados aos estudos para concursos públicos, decidiu retomar sua paixão por esse universo. Atualmente, vem adquirindo novos conhecimentos no curso de Técnico em Informática do SENAI, onde também teve a oportunidade de fazer novas amizades e expandir sua rede de contatos.</p>
                 <h2><span>Redes Sociais</span></h2>
                 <a target="_blank" href="https://www.instagram.com/rosachagasmrcl/"><i class="fa-brands fa-instagram" style="color: #e2e6ee;"></i></a>
                 <a target="_blank" href="https://bsky.app/profile/rosamrcl.bsky.social"><i class="fa-brands fa-bluesky" style="color: #e2e6ee;"></i></a>
