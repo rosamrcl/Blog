@@ -3,7 +3,7 @@
                 $login=$_POST['login'];
                 $senha=$_POST['senha'];
 
-                header ('Location: ../public/comentario.php');
+                header ('Location:../public/comentario.php');
 
             }
             
