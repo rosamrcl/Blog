@@ -70,7 +70,7 @@
 
                     <input type="text" placeholder="User" name="user" id="user"><br>
                     <input type="text" placeholder="Titulo" name="titulo" id="titulo"><br>
-                    <input class="msg" type="txt" name="msg" id="msg" placeholder="Escreva aqui sua mensagem" max="2000"><br>
+                    <textarea name="msg" id="msg" maxlength="2000" placeholder="Escreva aqui sua mensagem"></textarea> <br>
                     <input class="enviar" type="submit" value="Enviar">
                 </form>
 
